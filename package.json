@@ -2,9 +2,10 @@
   "name": "@createnextapp/async-local-storage",
   "version": "1.0.1",
   "description": "AsyncLocalStorage is an unencrypted, asynchronous, persistent, key-value storage system that is global to the app in web browser. It should be used instead of LocalStorage.",
-  "main": "dist/async-local-storage.js",
-  "module": "dist/async-local-storage.es.js",
-  "jsnext:main": "dist/async-local-storage.es.js",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
